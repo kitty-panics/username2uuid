@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#
+# User Name to UUID
+#
+
+# 运行 .jar
+java -jar ../jar/username2uuid.jar
