@@ -12,3 +12,8 @@
     + 生成 **whitelist.json**
         + `./username2uuid wlist 用户名> whitelist.json`
 
+## 许可证
+
+[GPL]
+
+[GPL]: ./LICENSE

@@ -35,7 +35,13 @@ public class Main {
             );
         } else if(Objects.equals(JSON_TYPE, "wlist")) {
             // 转换并输出
-            System.out.println(GEN_UUID);
+            System.out.println("[\n"                                    +
+                               "  {\n"                                  +
+                               "    \"uuid\": \"" + GEN_UUID + "\",\n"  +
+                               "    \"name\": \"" + USER_NAME + "\"\n"  +
+                               "  }\n"                                  +
+                               "]"
+            );
         } else {
             System.out.print("=> 参数错误。");
         }
